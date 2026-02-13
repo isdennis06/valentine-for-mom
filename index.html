@@ -1,4 +1,42 @@
-<audio autoplay loop>
-  <source src="song.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine for Mom</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ff6f91, #ffd6a5, #cdb4db);
+            overflow-y: auto;
+            padding: 20px;
+        }
+        .card {
+            max-width: 420px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.97);
+            border-radius: 22px;
+            padding: 24px;
+            text-align: center;
+        }
+        audio {
+            margin-top: 15px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Happy Valentine’s Day, Mom!</h1>
+        <p>Here’s a special message just for you.</p>
+        <audio controls>
+            <source src="path/to/audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
